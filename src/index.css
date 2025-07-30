@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Poppins:wght@500&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Outfit", sans-serif;
+  background-color: #F1F2F4;
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+}
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.hide-scrollbar {
+  -ms-overflow-style: none; 
+  scrollbar-width: none;    
+}
